@@ -9,6 +9,9 @@ body{
     background-image: linear-gradient(to bottom, rgb(255, 0, 200)0%, rgb(255, 0, 140));
     padding: 7px 20px;
     border-radius: 7px;
+    border-color: transparent;
+    color: white;
+    font-size: 18px;
 
 }
 .carousel-item{
@@ -17,4 +20,51 @@ body{
 
 .price{
     color: rgb(255, 71, 148);
+}
+.cat1{
+    background-color: orange;
+}
+.cat2{
+    background-color: rgb(174, 0, 255);
+}
+.cat3{
+    background-color: rgb(0, 47, 255);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+.ctg{
+    text-decoration: none;
+}
+#shoes{
+    background-color:#feeae9;
+}
+#shoesdiv{
+    margin-top: 100px;
+}
+#bagpackdiv{
+    margin-top: 100px;
+}
+#bagpack{
+    background-color: #feeae9;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 13px darkgray;
+}
+.submit{
+    margin-top: 10px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-bottom: 15px;
 }
